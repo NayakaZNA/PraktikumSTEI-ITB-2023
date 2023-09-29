@@ -16,19 +16,19 @@ n = int(input("Masukkan bilangan N: "))
 
 # Inisiasi Awal
 pa, pb, count = a, b, 1
-if a == n or b == n:
-    print(f"Bilangan {n} dapat dicapai.")  # Cek apakah A atau B sama dengan N
+if a == n or b == n: # Cek apakah A atau B sama dengan N
+    print(f"Bilangan {n} dapat dicapai.")
 
 # While Loop
 else:
     while (pa < n and pb < n): # Aksi dilakukan selama hasil perkalian belum mencapai/melebihi N
         # Perkalian dengan a atau b dilakukan secara bergantian
         if count % 2 == 1:
-            pa *= b  # Perkalian dengan b
-            pb *= a  # Perkalian dengan a
+            pa *= b
+            pb *= a
         else:
-            pa *= a  # Perkalian dengan a
-            pb *= b  # Perkalian dengan b
+            pa *= a
+            pb *= b
         count += 1  # Increment count setelah setiap perkalian
 
     # Cek apakah N dapat dicapai dengan perkalian a dan b

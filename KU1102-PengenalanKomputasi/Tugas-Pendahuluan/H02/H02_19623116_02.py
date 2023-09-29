@@ -19,6 +19,7 @@ Jika H ganjil, baris tengah pada segitiga tidak punya kembaran.
 Untuk mengantisipasi tersebut, kita perlu cetak satu baris lagi jika H ganjil.
 Perhatikan jika H genap : (h + 1) // 2 = h / 2; 
            jika H ganjil: (h + 1) // 2 = (h + 1) / 2
+Jadi, untuk membuat segitiga atas kita lakukan iterasi sebanyak (h + 1)//2.
 """
 
 # Membuat segitiga bagian atas
@@ -26,6 +27,7 @@ for i in range((h + 1) // 2):
     # Mencetak tiap baris pada segitiga
     for j in range(i + 1):
         print(num, end=" ")
+        # Increment num
         num += 1
     # Memberi newline antarbaris
     print()
@@ -35,6 +37,7 @@ for i in range(h//2, 0, -1):
     # Mencetak tiap baris pada segitiga
     for j in range(i + 1, 1, -1):
         print(num, end=" ")
+        # Increment num
         num += 1
     # Memberi newline antarbaris
     print()
