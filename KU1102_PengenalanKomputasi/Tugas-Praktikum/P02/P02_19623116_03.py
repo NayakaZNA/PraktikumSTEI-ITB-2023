@@ -7,7 +7,6 @@
 # lengthn   : integer; panjang baris (tidak mencakup)
 # a         : integer; selisih angka antarbaris
 # num       : integer; angka yang dicetak pada baris
-# line      : integer; keep track banyaknya baris yang tercetak
 
 # ALGORITMA
 ## Inisialisasi Awal
