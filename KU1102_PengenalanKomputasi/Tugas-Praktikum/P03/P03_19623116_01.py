@@ -4,8 +4,8 @@
 
 # KAMUS
 # n             : integer
-# harga         : array[float]      ; harga jam ke-(i + 1)
-# biaya         : array[float]      ; total biaya jika mulai makan dari jam ke-(i + 1)
+# harga         : array[float]      ; elemen ke-i adalah harga jam ke-(i + 1)
+# biaya         : array[float]      ; elemen ke-i adalah total biaya jika mulai makan dari jam ke-(i + 1)
 # mini_index    : integer           ; indeks dari elemen terkecil dalam array
 # mini          : integer           ; elemen terkecil dalam array
 
