@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 26 September 2023
 # Deskripsi : Program menentukan apakah suatu bilangan merupakan perpangkatan dari bilangan lain
+# Panjang   : 15 lines
 
 # KAMUS
 # n, nn, k : integer
