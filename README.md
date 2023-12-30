@@ -15,7 +15,7 @@ section        .data
     len        equ $ -msg
 ```
 ## Deskripsi
-Repositori ini berisi file soal dan dokumentasi pekerjaan saya dalam praktikum selama belajar di Sekolah Teknik Elektro dan Informatika Institut Teknologi Bandung (STEI ITB). Mudah-mudahan bisa bermanfaat bagi rekan-rekan sekalian. :D
+Repositori ini berisi file soal dan dokumentasi pekerjaan saya dalam praktikum selama belajar di Sekolah Teknik Elektro dan Informatika Institut Teknologi Bandung (STEI ITB). Mohon hanya gunakan repositori ini sebagai sumber belajar, bukan sumber contekan. Mudah-mudahan repositori ini dapat bermanfaat bagi teman-teman sekalian. :D
 
 ## Daftar Mata Kuliah
 Mata Kuliah                                                 |Semester   |SKS|
@@ -25,4 +25,4 @@ Mata Kuliah                                                 |Semester   |SKS|
 [IF2110 Algoritma dan Struktur Data](./IF2110_Alstrukdat/)  |3          |4  |
 
 ## Penulis
-Nayaka [19623116]
+Z. Nayaka Athadiansyah [19623116]
