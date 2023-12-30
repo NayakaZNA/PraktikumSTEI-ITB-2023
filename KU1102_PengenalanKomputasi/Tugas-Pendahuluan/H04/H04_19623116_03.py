@@ -1,6 +1,8 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 10 Oktober 2023
 # Deskripsi : Program menentukan banyaknya kapal (deretan '1' horizontal/vertikal) dalam peta 
+# Panjang   : 17 lines
+
 # KAMUS
 # n, m          : integer               ; dimensi peta
 # row_peta      : string                ; baris pada peta
