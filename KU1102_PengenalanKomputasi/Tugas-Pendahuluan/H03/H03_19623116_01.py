@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 10 Oktober 2023
 # Deskripsi : Program menentukan nomor undangan yang tidak datang
+# Panjang   : 9 lines
 
 # KAMUS
 """
