@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 5 Oktober 2023
-# Deskripsi : Program Mencetak Piramida Bilangan
+# Deskripsi : Program mencetak piramida bilangan
+# Panjang   : 18 lines
 
 # KAMUS
 # length    : integer; panjang segitiga
@@ -16,12 +17,8 @@ num     = 1
 
 ## Input
 
-### Memastikan panjang piramida tidak melebihi 75
-"""
-(Tidak diinstruksikan apa yang harus dilakukan jika demikian
-jadi saya tetap terima inputnya hingga valid)
-"""
-while (length > 75):
+### Terus menerima input jika panjang piramida melebihi 75 atau panjangnya genap
+while ((length > 75) or (length % 2 == 0)):
     length = int(input("Masukkan panjang piramida: "))
 
 ### Input selisih angka antarbaris:
@@ -55,7 +52,7 @@ while (lengthn <= length):
     lengthn += 2            # Increment panjang baris yang memuat angka sebanyak 2
 
 """
-Mudah-mudahan AC :D 
-Semangat ngoreksinya, Kak!
-- Nayaka
-"""  
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+""" 

@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 26 September 2023
 # Deskripsi : Program menentukan apakah bilangan N dapat dicapai melalui perkalian A dan B
+# Panjang   : 19 lines
 
 # KAMUS
 # a, b, n   : integer
@@ -36,3 +37,9 @@ else:
         print(f"Bilangan {n} dapat dicapai.")
     else:
         print(f"Bilangan {n} tidak dapat dicapai.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

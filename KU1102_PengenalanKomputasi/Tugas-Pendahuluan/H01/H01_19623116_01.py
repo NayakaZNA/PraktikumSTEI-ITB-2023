@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 14 September 2023
-# Deskripsi : Program Menentukan Kelulusan Tuan Kil berdasarkan Nilai Ujian/Rata-Ratanya
+# Deskripsi : Program menentukan kelulusan Tuan Kil berdasarkan nilai ujian/rata-ratanya
+# Panjang   : 9 lines
 
 # KAMUS
 # n_1, n_2, n_3, n_4    : integer
@@ -24,3 +25,9 @@ if ((n_1 < 50) or (n_2 < 50) or (n_3 < 50) or (n_4 < 50) or (avg < 70)):
 else: # Semua nilai >= 50 dan rerata >= 70
     print("Tuan Kil lulus kelas Tuan Leo.")
     # Kalau tidak, maka Tuan Kil lulus
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

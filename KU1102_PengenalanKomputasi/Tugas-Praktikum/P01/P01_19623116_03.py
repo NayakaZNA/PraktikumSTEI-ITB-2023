@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 21 September 2023
 # Deskripsi : Program menentukan banyaknya baju yang bisa dibuat berdasarkan ketersediaan bahan
+# Panjang   : 33 lines
 
 # KAMUS
 # kain, pita : float
@@ -64,3 +65,9 @@ else: # bahan cukup
 
 # Output
     print(f"Nona Deb dapat membuat {int(s)} ukuran S, {int(m)} ukuran M, {int(l)} ukuran L.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

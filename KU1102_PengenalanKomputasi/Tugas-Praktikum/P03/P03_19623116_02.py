@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 19 Oktober 2023
 # Deskripsi : Program menentukan banyaknya jumlah potongan list yang merupakan bilangan prima
+# Panjang   : 25 lines
 
 # KAMUS
 # n         : integer

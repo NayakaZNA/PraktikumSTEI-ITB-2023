@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 14 September 2023
-# Deskripsi : Program Menghitung Gradien Garis
+# Deskripsi : Program menghitung gradien garis
+# Panjang   : 11 lines
 
 # KAMUS
 # x1, y1, x2, y2    : integer
@@ -22,3 +23,9 @@ elif (x1 == x2):
 else:   # Garis dengan gradien tertentu
     m = (y2 - y1)/(x2 - x1) # baru dilakukan untuk menghindari pembagian dengan nol jika garisnya vertikal
     print(f"Garis tersebut memiliki gradien {m}.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

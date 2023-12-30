@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 2 November 2023
 # Deskripsi : Program membuat matriks baru yang tiap elemennya merupakan jumlah elemen adjacent pada matriks semula
+# Panjang   : 14 lines
 
 # KAMUS
 # m, n      : int       ; dimensi matriks

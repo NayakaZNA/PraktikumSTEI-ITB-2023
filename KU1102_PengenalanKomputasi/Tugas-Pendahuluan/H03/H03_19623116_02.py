@@ -39,3 +39,9 @@ for j in range(panjang):
 
 ## Output
 print(f"Nilai terbesar ke-{n} adalah {values[n - 1]}.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

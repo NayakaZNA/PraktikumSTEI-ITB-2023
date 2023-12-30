@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 2 November 2023
 # Deskripsi : Program menghitung nilai tugas praktikum berdasarkan bobotnya (dan menentukan kevalidan bobot)
+# Panjang   : 19 lines
 
 # KAMUS
 # a, b, c                   : float ; bobot nilai tiap soal

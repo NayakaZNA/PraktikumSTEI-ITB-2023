@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 19 Oktober 2023
 # Deskripsi : Program menentukan ketepatan kata yang ditulis Komi
+# Panjang   : 19 lines
 
 # KAMUS
 # orlen, wrlen      : integer   ; panjang kata asli dan yang ditulis

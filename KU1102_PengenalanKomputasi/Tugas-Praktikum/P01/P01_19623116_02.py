@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 21 September 2023
 # Deskripsi : Program menentukan angka spesial
+# Panjang   : 12 lines
 
 # KAMUS
 # n, d1, d2, d3, d4 : integer
@@ -25,3 +26,9 @@ if (d2 + d3) != 0:                  # mengantisipasi d2 = d3 = 0 -> operasi mod 
         print(f"Angka {n} bukan angka spesial.")
 else:   # d2 + d3 == 0
     print(f"Angka {n} bukan angka spesial.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

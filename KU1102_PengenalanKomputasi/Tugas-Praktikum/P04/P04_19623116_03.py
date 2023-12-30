@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 2 November 2023
-# Deskripsi : 
+# Deskripsi : Program menentukan terancamnya raja oleh kuda pada catur
+# Panjang   : 43 lines
 
 # KAMUS
 # m             : int       ; panjang sisi papan catur
@@ -14,6 +15,7 @@ def raja_kena_skak(matrix: list[str], i: int, j: int, m: int) -> bool:
     mampus = False
 
     # Maaf ini kurang efisien soalnya saya lagi skill issue
+    # Harusnya bisa pakai teknik yang mirip dengan soal sebelumnya
 
     if matrix[i][j] == 'K':
         # Bisa menyerang ke atas
@@ -60,10 +62,17 @@ m = int(input("Masukkan nilai m: "))
 peta_catur  = [["" for i in range(m)] for i in range(m)]
 skak        = False
 
-## Input peta catur
+## Input papan catur
 for i in range(m):
     for j in range(m):
         peta_catur[i][j] = input(f"Masukkan elemen matriks ke-{i + 1} {j + 1}: ")
+
+## Cetak papan catur
+print("Hasil papan catur")
+for i in range(m):
+    for j in range(m):
+        print(peta_catur[i][j], end=" ")
+    print()
 
 ## Proses
 ### Menggunakan perulangan untuk mengecek apakah kuda bisa menskak raja

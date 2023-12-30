@@ -29,3 +29,9 @@ print("Nomor perwakilan yang tidak datang: ", end="")
 for i in range(n): 
     if not hadir_gak[i]:
         print(i + 1, end=" ")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

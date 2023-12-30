@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 5 Oktober 2023
-# Deskripsi : Program Mencetak Barisan Unik (Naik Turun)
+# Deskripsi : Program mencetak barisan unik (naik turun)
+# Panjang   : 15 lines
 
 # KAMUS
 # x, y  : integer
@@ -35,7 +36,7 @@ while count < x:
         count += 1
 
 """
-Mudah-mudahan AC :D 
-Semangat ngoreksinya, Kak!
-- Nayaka
-"""  
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

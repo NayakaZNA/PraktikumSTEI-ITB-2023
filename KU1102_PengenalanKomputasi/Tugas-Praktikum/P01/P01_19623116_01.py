@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 21 September 2023
 # Deskripsi : Program menentukan nominal uang terbesar
+# Panjang   : 8 lines
 
 # KAMUS
 # peng, kom : float
@@ -19,3 +20,8 @@ if peng > kom:
 else: # peng < kom, mengasumsikan peng != kom pasti berlaku
     print("Adik Tuan Kil memilih uang Kom.")
   
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

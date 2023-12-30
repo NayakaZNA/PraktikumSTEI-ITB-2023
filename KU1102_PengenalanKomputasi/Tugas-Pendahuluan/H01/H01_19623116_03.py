@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 14 September 2023
-# Deskripsi : Program Menentukan Harga Kursi Pesawat
+# Deskripsi : Program menentukan harga kursi pesawat
+# Panjang   : 19 lines
 
 # KAMUS
 # n, harga  : int
@@ -35,3 +36,9 @@ else: # (21 <= n <= 50) or (61 <= n <= 100)
 
 # Output
 print(f"Tuan Kil memilih kursi {type} dengan harga {harga}.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""

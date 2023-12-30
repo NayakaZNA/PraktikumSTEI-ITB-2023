@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 19 Oktober 2023
 # Deskripsi : Program mencari biaya minimum untuk makan di restoran selama 3 jam tanpa henti
+# Panjang   : 20 lines
 
 # KAMUS
 # n             : integer

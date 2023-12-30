@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 5 Oktober 2023
-# Deskripsi : Program Menentukan Banyaknya Kegiatan di Gedung A dan B
+# Deskripsi : Program menentukan banyaknya kegiatan di gedung A dan B
+# Panjang   : 15 lines
 
 # KAMUS
 # n             : integer; kapasitas peserta per kegiatan di gedung A
@@ -41,7 +42,7 @@ while (keg_b < 3):
 print(f"Terdapat {keg_a} kegiatan di gedung A dan {keg_b} kegiatan di gedung B.")
 
 """
-Mudah-mudahan AC :D 
-Semangat ngoreksinya, Kak!
-- Nayaka
-"""  
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""
