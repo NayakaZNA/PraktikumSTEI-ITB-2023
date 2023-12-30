@@ -63,3 +63,9 @@ else:
             if visits[idx_maks] < visits[j]:
                 idx_maks = j
 print(f"Tuan Leo dapat mengunjungi {visits[idx_maks]} stasiun dimulai dari stasiun ke-{idx_maks + 1}.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""
