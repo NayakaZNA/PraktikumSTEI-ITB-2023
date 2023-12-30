@@ -18,9 +18,11 @@ section        .data
 Repositori ini berisi file soal dan dokumentasi pekerjaan saya dalam praktikum selama belajar di Sekolah Teknik Elektro dan Informatika Institut Teknologi Bandung (STEI ITB). Mudah-mudahan bisa bermanfaat bagi rekan-rekan sekalian. :D
 
 ## Daftar Mata Kuliah
-- [KU1102 Pengenalan Komputasi](./KU1102-PengenalanKomputasi)
-- IF1210 Dasar Pemrograman (belum semester 2, tunggu ya)
-- Algoritma dan Struktur Data (belum masuk IF)
+Mata Kuliah                                                 |Semester   |SKS|
+|-----------------------------------------------------------|-----------|---|
+[KU1102 Pengenalan Komputasi](./KU1102-Pengkom)             |1          |3  |
+[IF1210 Dasar Pemrograman](./IF1210_Daspro/)                |2          |2  |
+[IF2110 Algoritma dan Struktur Data](./IF2110_Alstrukdat/)  |3          |4  |
 
 ## Penulis
 Nayaka [19623116]
