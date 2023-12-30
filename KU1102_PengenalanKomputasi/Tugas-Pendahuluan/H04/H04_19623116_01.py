@@ -1,7 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 24 Oktober 2023
 # Deskripsi : Program menentukan jumlah maksimum submatriks 2x2 yang memuat elemen ganjil
-# (18 lines)
+# Panjang   : 18 lines
 
 # KAMUS
 # m, n            : integer             ; dimensi matriks
