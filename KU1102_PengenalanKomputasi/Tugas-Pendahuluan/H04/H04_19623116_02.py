@@ -1,6 +1,7 @@
 # NIM/Nama  : 19623116/Zulfaqqar Nayaka Athadiansyah
 # Tanggal   : 24 Oktober 2023
 # Deskripsi : Program menentukan banyak bakteri (semula n) pada detik ke-k
+# Panjang   : 8 lines
 
 # KAMUS
 # n, k  : integer
