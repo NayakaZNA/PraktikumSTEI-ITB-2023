@@ -4,14 +4,14 @@
 
 # KAMUS
 # duit          : integer
-# n             : integer   ; banyaknya stasiun
-# harga         : array     ; menampung harga stasiun ke-(i + 1)
-# biaya         : integer   ; total biaya kereta Tuan Leo dalam satu perjalanan
-# visited       : integer   ; stasiun yang telah dikunjungi
-# visits        : integer   ; banyaknya stasiun yang dapat dikunjungi jika mulai dari stasiun ke-(i + 1)
-# j             : integer   ; variabel iterator while
-# idx_maks      : integer   ; indeks dari nilai maksimum suatu array
-# count         : integer   ; jika uang Tuan Leo tidak cukup, bisa = 0
+# n             : integer           ; banyaknya stasiun
+# harga         : array[integer]    ; menampung harga stasiun ke-(i + 1)
+# biaya         : integer           ; total biaya kereta Tuan Leo dalam satu perjalanan
+# visited       : integer           ; stasiun yang telah dikunjungi dalam satu iterasi
+# visits        : array[integer]    ; banyaknya stasiun yang dapat dikunjungi jika mulai dari stasiun ke-(i + 1)
+# j             : integer           ; variabel iterator dalam while loop
+# idx_maks      : integer           ; indeks dari nilai maksimum suatu array
+# bisa          : integer           ; jika uang Tuan Leo tidak cukup, bisa = 0
 
 # ALGORITMA
 
@@ -22,7 +22,7 @@ n       = int(input("Masukkan jumlah stasiun: "))
 ## Inisialisasi Awal
 harga   = [0 for i in range(n)]
 visits  = [0 for i in range(n)]
-count   = 0
+bisa   = 0
 
 ## Input harga stasiun
 for i in range(n):
@@ -50,10 +50,10 @@ for i in range(n):
         #### Menyimpan nilai `visited` ke dalam `visits`
         visits[i]   = visited
         #### Increment variabel `bisa`
-        count += 1
+        bisa += 1
 
 # Output
-if count == 0:
+if bisa == 0:
     print("Tuan Leo kekurangan uang.")
 else:
 ### Mencari i sehingga visits[i] maksimum

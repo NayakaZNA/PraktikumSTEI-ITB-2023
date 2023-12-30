@@ -5,7 +5,7 @@
 # KAMUS
 """
 n, m      : integer
-hadir_gak : array[bool] ; menyimpan nilai kebenaran dari kehadiran tiap perwakilan
+hadir_gak : array[boolean] ; elemen ke-(i-1) bernilai True jika perwakilan ke-i hadir, vice versa
 """
 
 # ALGORITMA
