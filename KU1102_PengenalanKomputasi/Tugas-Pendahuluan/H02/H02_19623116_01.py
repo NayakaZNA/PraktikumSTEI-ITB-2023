@@ -32,3 +32,9 @@ else: # k == 1
         nn = 1
     else: # n != 1
         print(f"{n} bukan merupakan perpangkatan {k}.")
+
+"""
+Semoga AC :D
+Semangat mengkoreksi, Kak Asprak!
+~ Nayaka Ganteng
+"""
