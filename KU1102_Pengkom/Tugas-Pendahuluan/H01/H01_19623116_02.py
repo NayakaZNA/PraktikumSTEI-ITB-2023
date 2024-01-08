@@ -21,7 +21,7 @@ if (y1 == y2):
 elif (x1 == x2):
     print("Garis tersebut merupakan garis vertikal.") # Tiap titik pada garis vertikal absisnya sama
 else:   # Garis dengan gradien tertentu
-    m = (y2 - y1)/(x2 - x1) # baru dilakukan untuk menghindari pembagian dengan nol jika garisnya vertikal
+    m = (y2 - y1)/(x2 - x1) # baru dihitung untuk menghindari pembagian dengan nol jika garisnya vertikal
     print(f"Garis tersebut memiliki gradien {m}.")
 
 """
