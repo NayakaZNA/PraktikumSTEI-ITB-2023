@@ -1,0 +1,193 @@
+/* =========================== /*
+/* ======== Bagian 1 ========= /*
+/* =========================== /*
+
+
+
+/* ************************* */
+/** a. Suami dari aihoshino **/
+/* ************************* */
+
+| ?- pria(Suami), menikah(Suami, aihoshino).
+no
+
+% Komentar: Benar, karena aihoshino tidak punya suami.
+
+
+
+/* ***************************************** */
+/** b. Kakek buyut dan nenek buyut dari eve **/
+/* ***************************************** */
+
+/* Kakek Buyut */
+| ?- anak(eve, Ortu), anak(Ortu, Eyang), anak(Eyang, KakekBuyut), pria(KakekBuyut).
+
+Eyang = barok
+KakekBuyut = qika
+Ortu = suzy ? ;
+
+no
+
+/* Nenek Buyut */
+| ?- anak(eve, Ortu), anak(Ortu, Eyang), anak(Eyang, NenekBuyut), wanita(NenekBuyut).
+
+Eyang = barok
+NenekBuyut = makio
+Ortu = suzy ? ;
+
+no
+
+% Komentar: Kakek buyut dan nenek buyut dari eve secara berturut-turut diwakilkan oleh variabel KakekBuyut dan NenekBuyut.
+% Benar bahwa kakek buyut dari eve adalah qika, dan nenek buyutnya adalah makio.
+
+
+
+/* *********************************** */
+/** c. Paman dari orang tua francesco **/
+/* *********************************** */
+
+| ?- anak(francesco, Ortu), saudara(Paman, Ortu), \+ (saudaratiri(Paman, Ortu)), pria(Paman).
+
+no
+
+% Komentar: Benar, karena orang tua francesco tak terdefinisi.
+
+
+
+/* ********************************************** */
+/** d. Orang yang memiliki lebih dari satu istri **/
+/* ********************************************** */
+
+| ?- pria(HaremKing), menikah(HaremKing, Istri1), menikah(HaremKing, Istri2), Istri1 \= Istri2.
+
+HaremKing = qika
+Istri1 = hinatsuru
+Istri2 = makio ? ;
+
+HaremKing = qika
+Istri1 = hinatsuru
+Istri2 = suma ? ;
+
+HaremKing = qika
+Istri1 = makio
+Istri2 = hinatsuru ? ;
+
+HaremKing = qika
+Istri1 = makio
+Istri2 = suma ? ;
+
+HaremKing = qika
+Istri1 = suma
+Istri2 = hinatsuru ? ;
+
+HaremKing = qika
+Istri1 = suma
+Istri2 = makio ? ;
+
+no
+
+% Komentar: di sini orang yang dicari disimpan dalam variabel HaremKing, yakni qika.
+
+
+
+/* ************************************ */
+/** e. Saudara tiri tertua dari shelby **/
+/* ************************************ */
+
+| ?- saudaratiri(shelby, SaudaraTiriTertua), usia(SaudaraTiriTertua, UsiaSaudaraTiriTertua), \+ (saudaratiri(shelby, SaudaraTiriLainnya), usia(SaudaraTiriLainnya, UsiaSaudaraTiriLainnya), UsiaSaudaraTiriLainnya > UsiaSaudaraTiriTertua).
+
+SaudaraTiriTertua = barok
+UsiaSaudaraTiriTertua = 59 ? ;
+
+no
+
+% Komentar: tidak ada komentar.
+
+
+
+/* ******************************************** */
+/** f. Orang tua yang memiliki tepat satu anak **/
+/* ******************************************** */
+
+| ?- anak(AnakTunggal, Ayah), pria(Ayah), \+ (saudara(AnakTunggal, _)).
+
+AnakTunggal = suzy
+Ayah = barok ? ;
+
+AnakTunggal = eve
+Ayah = francesco ? ;
+
+AnakTunggal = aihoshino
+Ayah = eriq ? ;
+
+no
+
+% Komentar: Di sini kita membatasi orang tuanya menjadi ayah saja (dengan menambahkan `pria(Ayah)`)
+% supaya tidak muncul output duplikat karena tanpa command tersebut, ibu dari AnakTunggal juga akan diperiksa
+% sehingga menghasilkan output duplikat.
+
+
+
+/* ********************************************************** */
+/** g. Pria yang memiliki mertua berusia lebih dari 99 tahun **/
+/* ********************************************************** */
+
+| ?- pria(Orang), mertua(Mertua, Orang), usia(Mertua, UsiaMertuanya), UsiaMertuanya > 99.
+
+Mertua = panji
+Orang = eriq
+UsiaMertuanya = 124 ? ;
+
+no
+
+% Komentar: Tidak ada komentar.
+
+
+
+/* ****************************************** */
+/** h. Orang yatim piatu dengan usia termuda **/
+/* ****************************************** */
+
+| ?- yatimpiatu(YatimPiatuTermuda), usia(YatimPiatuTermuda, UsiaYatimPiatuTermuda), \+ (yatimpiatu(YatimPiatuLainnya), YatimPiatuTermuda \= YatimPiatuLainnya, usia(YatimPiatuLainnya, UsiaYatimPiatuLainnya), UsiaYatimPiatuLainnya < UsiaYatimPiatuTermuda).
+
+UsiaYatimPiatuTermuda = 25
+YatimPiatuTermuda = francesco ? ;
+
+no
+
+% Komentar: Tidak ada komentar.
+
+
+
+/* ******************************************************************************************************* */
+/** i. Orang diatas 60 tahun yang statusnya menikah dengan orang yang memiliki saudara lebih dari 1 orang **/
+/* ******************************************************************************************************* */
+
+| ?- usia(Orang, UsiaOrang), UsiaOrang > 60, menikah(Orang, PasanganOrang), saudara(PasanganOrang, SaudaraPasanganOrang), saudara(PasanganOrang, SaudaraLainnyaPasanganOrang), SaudaraPasanganOrang \= SaudaraLainnyaPasanganOrang.
+
+
+Orang = roxy
+PasanganOrang = barok
+SaudaraLainnyaPasanganOrang = yennefer
+SaudaraPasanganOrang = shelby
+UsiaOrang = 70 ? ;
+
+Orang = roxy
+PasanganOrang = barok
+SaudaraLainnyaPasanganOrang = shelby
+SaudaraPasanganOrang = yennefer
+UsiaOrang = 70 ? ;
+
+no
+
+
+
+/* *********************************************************** */
+/** i. Seluruh keturunan qika yang memiliki tepat 2 keponakan **/
+/* *********************************************************** */
+
+| ?- keturunan(Keturunan, qika), keponakan(Keponakan1, Keturunan), keponakan(Keponakan2, Keturunan), Keponakan1 \= Keponakan2, \+ (keponakan(Keponakan3, Keturunan), Keponakan3 \= Keponakan1, Keponakan3 \= Keponakan2).
+
+no
+
+% Komentar: Memang tidak ada.
